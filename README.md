@@ -8,9 +8,11 @@ Simple project that let you apply some filters to images, black and white, resiz
   
  [Usage]
  
+  There is a makefile for compilation, the makefile has command "doc" for generating the doxygen documentation.
+ 
   The main program will receive two parameters, image source and destination image (both files name ex:"car.pgm")
   
-  Then a main menu will appear in the console asking you for the filter edit of the image. Depending in which option did you choose it will ask u again for some parameters.
+  Once the program is executed, a main menu will appear in the console asking you for the filter edit of the image. Depending in which option did you choose it will ask u again for some parameters.
   
  [Limitation]
  
