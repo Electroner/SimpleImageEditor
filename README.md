@@ -1,4 +1,4 @@
-# SimpleImageEditor [![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)](https://github.com/emersion/stability-badges#stable) [![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/Naereen/StrapDown.js)
+# SimpleImageEditor [![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)](https://github.com/emersion/stability-badges#stable) [![Generic badge](https://img.shields.io/badge/Version-1.0-green.svg)](https://shields.io/)
 Simple project that let you apply some filters to images, black and white, resizing by constant and thresholding.
 
 [Requirements]
