@@ -1,4 +1,4 @@
-# SimpleImageEditor [![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)](https://github.com/emersion/stability-badges#stable) [![Generic badge](https://img.shields.io/badge/Version-1.0-green.svg)](https://shields.io/)
+# SimpleImageEditor [![Generic badge](https://img.shields.io/badge/Build-Stable-green.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/Version-1.0-green.svg)](https://shields.io/)
 Simple project that let you apply some filters to images, black and white, resizing by constant and thresholding.
 
 [Requirements]
