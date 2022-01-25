@@ -1,4 +1,4 @@
-# SimpleImageEditor [![Generic badge](https://img.shields.io/badge/Build-Stable-green.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/Version-1.0-green.svg)](https://shields.io/)
+# SimpleImageEditor [![Generic badge](https://img.shields.io/badge/Build-Stable-green.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/Version-1.0-green.svg)](https://shields.io/) ![](https://tokei.rs/b1/github/Electroner/SimpleImageEditor)
 Simple project that let you apply some filters to images, black and white, resizing by constant and thresholding.
 
 [Requirements]
