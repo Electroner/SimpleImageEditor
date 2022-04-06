@@ -1,3 +1,9 @@
+#include "imagenES.h"
+#include "pattern.h"
+#include "PatternList.h"
+#include <iostream>
+#include <stdio.h>
+
 /** \mainpage IMAGEN
  *
  * Esta Clase es para la practica de ED 2º Curso de Ing. Informatica
@@ -175,6 +181,12 @@ public:
      * @details Para calcular la media de los N puntos por seccion usaremos:  \image html Formula_Icono.png
      */
     void Icono(int multi);
+
+    void Display();
+
+    void SeachPattern(Pattern _pattern);
+
+    int toVector(int _x, int _y,int _channel);
 };
 
 #endif

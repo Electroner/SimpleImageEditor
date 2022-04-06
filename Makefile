@@ -1,9 +1,9 @@
 OBJS	= escalar.o estiramiento.o gris.o histograma.o icono.o imagen.o imagenES.o main.o umbralizacion.o
 SOURCE	= escalar.cpp estiramiento.cpp gris.cpp histograma.cpp icono.cpp imagen.cpp imagenES.cpp main.cpp umbralizacion.cpp
-HEADER	= imagen.h imagenES.h
-OUT	= main
+HEADER	= imagen.h imagenES.h pattern.h PatternList.h
+OUT	= final.out
 CC	 = g++
-FLAGS	 = -g -c -O3 -Wall
+FLAGS	 = -g -c -Wall -std=c++17
 LFLAGS	 = -lm
 
 all: $(OBJS)
@@ -39,6 +39,5 @@ umbralizacion.o: umbralizacion.cpp
 clean:
 	rm -f $(OBJS) $(OUT)
 
-#PORFAVOR USAR make doc PARA GENERAR LA DOCUMENTACION
-doc:
-	doxygen DoxygenConfig
+run: $(OUT)
+	./$(OUT) amogus2.ppm amogussalida.ppm
