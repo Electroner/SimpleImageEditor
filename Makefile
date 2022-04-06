@@ -40,4 +40,4 @@ clean:
 	rm -f $(OBJS) $(OUT)
 
 run: $(OUT)
-	./$(OUT) amogus2.ppm amogussalida.ppm
+	./$(OUT) Reddit.ppm salida.ppm

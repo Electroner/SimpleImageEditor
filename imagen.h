@@ -3,7 +3,7 @@
 #include "PatternList.h"
 #include <iostream>
 #include <stdio.h>
-
+#include <utility>
 /** \mainpage IMAGEN
  *
  * Esta Clase es para la practica de ED 2º Curso de Ing. Informatica
@@ -184,9 +184,13 @@ public:
 
     void Display();
 
-    void SeachPattern(Pattern _pattern);
+    void clear();
 
     int toVector(int _x, int _y,int _channel);
+
+    std::vector<std::pair<int,int>> SeachPattern(Pattern _pattern);
+
+    void SeachNPattern(std::vector<Pattern> _patterns, Image &_image);
 };
 
 #endif
